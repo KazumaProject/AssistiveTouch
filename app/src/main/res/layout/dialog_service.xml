@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/recodertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Screen Recoder Start"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:textColor="@color/global_black" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/recoderdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="you can stop recoding by click on same icon"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20sp"
+            android:textColor="@color/global_black" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="at_bg1">#313131</color>
+    <color name="at_bg2">#5b5b5b</color>
+    <color name="at_bg3">#d2d2d2</color>
+    <color name="at_bg4">#ffffff</color>
+    <color name="at_bg5">#283035</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="silver">#a7a7a7</color>
+    <color name="dark_silver">#888888</color>
+    <color name="light_silver">#D7D7D8</color>
+    <color name="black_2">#111111</color>
+    <color name="toolbar">#f5f5f7</color>
+    <color name="main_bg">#eeedf3</color>
+    <color name="content_bg">#fefefe</color>
+    <color name="blue">#829ecd</color>
+    <color name="black_1">#282828</color>
+    <color name="green">#3fcb51</color>
+    <color name="purple">#948BDB</color>
+    <color name="light_green">#ACB9BB</color>
+    <color name="red">#cd5c5c</color>
+    <color name="blue_1">#4c6782</color>
+    <color name="black_3">#0a0a0a</color>
+    <color name="green2">#9ccc65</color>
+    <color name="white_2">#f6f6f8</color>
+    <color name="white_3">#f2f3f7</color>
+    <color name="white_4">#f0f0f0</color>
+    <color name="yellow">#ffbf00</color>
+    <color name="yellow2">#9d9d00</color>
+    <color name="yellow3">#FFFF7F</color>
+
+    <color name="accent">#1abc9c</color>
+    <color name="colorTextGray">#b6b5b4</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_gray">#e2e2e2</color>
+    <color name="background_list">#f5f5f5</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bg_panel_1">#e57373</color>
+    <color name="bg_panel_10">#81c784</color>
+    <color name="bg_panel_11">#aed581</color>
+    <color name="bg_panel_12">#dce775</color>
+    <color name="bg_panel_13">#fff176</color>
+    <color name="bg_panel_14">#ffd54f</color>
+    <color name="bg_panel_15">#ffb74d</color>
+    <color name="bg_panel_16">#ff8a65</color>
+    <color name="bg_panel_17">#a1887f</color>
+    <color name="bg_panel_18">#e0e0e0</color>
+    <color name="bg_panel_19">#808080</color>
+    <color name="bg_panel_2">#f06292</color>
+    <color name="bg_panel_20">#000000</color>
+    <color name="bg_panel_3">#ba68c8</color>
+    <color name="bg_panel_4">#9575cd</color>
+    <color name="bg_panel_5">#7986cb</color>
+    <color name="bg_panel_6">#064578</color>
+    <color name="bg_panel_7">#4fc3f7</color>
+    <color name="bg_panel_8">#4dd0e1</color>
+    <color name="bg_panel_9">#4db6ac</color>
+    <color name="black_alpha_70">#b3000000</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="browser_actions_bg_grey">#f5f5f5</color>
+    <color name="browser_actions_divider_color">#1e000000</color>
+    <color name="browser_actions_text_color">#de000000</color>
+    <color name="browser_actions_title_color">#646464</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+
+    <color name="color_ads">#0984e3</color>
+    <color name="color_ads_blur">#74b9ff</color>
+    <color name="color_gold_rating_ads">#ffd740</color>
+    <color name="color_gold_rating_ads_grey">#394356</color>
+    <color name="color_ripple">#9bdcdcdc</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="design_bottom_navigation_shadow_color">#14000000</color>
+    <color name="design_default_color_primary">#3f51b5</color>
+    <color name="design_default_color_primary_dark">#303f9f</color>
+
+    <color name="lightestgray">#fafafa</color>
+
+    <color name="backgray">#e0e0e0</color>
+    <color name="textcolor">#ffffff</color>
+    <color name="dialogboder">#929292</color>
+    <color name="lightgray">#757575</color>
+    <color name="darkgray">#616161</color>
+    <color name="backgroundColor">#fafafa</color>
+    <color name="black6">#424242</color>
+
+
+    <color name="diliver_gray">#d9d9d9</color>
+    <color name="global_black">#000000</color>
+    <color name="global_white">#ffffff</color>
+    <color name="gray">#9b9b9b</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="grey_700">#616161</color>
+    <color name="light_grey_ads">#65454c58</color>
+    <color name="light_transparent">#16000000</color>
+
+    <color name="black_color">#141414</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="opacity_button">#0d000000</color>
+    <color name="primary">#4aa4ef</color>
+    <color name="primary_dark">#4aa4ef</color>
+    <color name="primary_gray">#cfcfcf</color>
+    <color name="red2">#ff4d4d</color>
+    <color name="shadow">#c9c9c9</color>
+    <color name="stocke_card">#252c2b2b</color>
+    <color name="text_color">#394356</color>
+    <color name="text_color_ads">#394356</color>
+    <color name="text_color_detail_ads">#888f9a</color>
+    <color name="text_gray">#7d7d7d</color>
+    <color name="text_title">#64dd17</color>
+    <color name="title_block">#00a8ff</color>
+
+    <color name="graybackground">#eeecf5</color>
+    <color name="whiteios">#fffdff</color>
+    <color name="greenios">#58d255</color>
+    <color name="blueios">#4aa4ef</color>
+    <color name="toolbarios">#f7f3fa</color>
+    <color name="arrowios">#cccbcc</color>
+
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="white_blur">#bf9c9c9c</color>
+
+    <color name="color_text">@android:color/black</color>
+    <color name="color_progress">#fbfbfb</color>
+    <color name="color_background">#4b4b4b</color>
+
+    //------------color for icon tint----------------//
+
+    <color name="color1">#E57373</color>
+    <color name="color2">#F06292</color>
+    <color name="color3">#BA68C8</color>
+    <color name="color4">#9575CD</color>
+    <color name="color5">#7986CB</color>
+    <color name="color6">#064578</color>
+    <color name="color7">#4FC3F7</color>
+    <color name="color8">#4DD0E1</color>
+    <color name="color9">#4DB6AC</color>
+    <color name="color10">#81C784</color>
+    <color name="color11">#AED581</color>
+    <color name="color12">#DCE775</color>
+    <color name="color13">#FFF176</color>
+    <color name="color14">#FFD54F</color>
+    <color name="color15">#FFB74D</color>
+    <color name="color16">#FF8A65</color>
+    <color name="color17">#A1887F</color>
+    <color name="color18">#E0E0E0</color>
+    <color name="color19">#808080</color>
+    <color name="color20">#000000</color>
+    <color name="color21">#ffffff</color>
+
+
+</resources>

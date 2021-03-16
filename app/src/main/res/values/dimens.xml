@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="collapsed_img_size">52dp</dimen>
+    <dimen name="root_layout_size">300dp</dimen>
+    <dimen name="layout_btn_size">64dp</dimen>
+    <dimen name="layout_btn_size2">52dp</dimen>
+    <dimen name="sub_iconSize">52dp</dimen>
+    <dimen name="sub_labelSize">12sp</dimen>
+</resources>

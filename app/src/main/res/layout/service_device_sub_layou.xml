@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_root_bg">
+
+        <RelativeLayout
+            android:id="@+id/parent_1_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/btn_4_sub_device"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.296">
+            <ImageButton
+                android:id="@+id/btn_1_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:src="@drawable/screen_shot"
+                android:scaleType="fitCenter"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_1_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/screenshot"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/btn_1_sub_device"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_2_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_4_sub_device"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.29">
+            <ImageButton
+                android:id="@+id/btn_2_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:src="@drawable/stratus_bar"
+                android:scaleType="fitCenter"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_2_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_nstatusbar"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_2_sub_device"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_3_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toEndOf="@+id/btn_4_sub_device"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294">
+            <ImageButton
+                android:id="@+id/btn_3_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/record1"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_3_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/record"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_3_sub_device"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btn_4_sub_device"
+            android:layout_width="@dimen/layout_btn_size2"
+            android:layout_height="@dimen/layout_btn_size2"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/parent_5_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_4_sub_device"
+            app:layout_constraintHorizontal_bias="0.472"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_2_sub_device"
+            app:layout_constraintVertical_bias="0.357">
+            <ImageButton
+                android:id="@+id/btn_5_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_recent_white"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_5_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_5_sub_device"
+                android:layout_centerHorizontal="true"
+                android:text="@string/recent"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_6_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toEndOf="@+id/btn_4_sub_device"
+            app:layout_constraintTop_toBottomOf="@+id/parent_3_sub_device"
+            app:layout_constraintVertical_bias="0.351">
+            <ImageButton
+                android:id="@+id/btn_6_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_location_on_24"
+                tools:ignore="ContentDescription"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/text_6_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/location"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_6_sub_device"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/parent_7_sub_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_4_sub_device"
+            app:layout_constraintVertical_bias="0.692">
+
+            <ImageButton
+                android:id="@+id/btn_7_sub_device"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_boost_large_1"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_7_sub_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_7_sub_device"
+                android:layout_centerHorizontal="true"
+                android:text="@string/clean"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

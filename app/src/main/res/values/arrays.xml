@@ -1,0 +1,56 @@
+<resources>
+    <!-- Icon Type Preference -->
+    <string-array name="icon_type_entries">
+        <item>Circle</item>
+        <item>Square</item>
+    </string-array>
+
+    <string-array name="icon_type_values">
+        <item>"Circle"</item>
+        <item>"Square"</item>
+    </string-array>
+
+    <!-- Window Animation Type Preference -->
+    <string-array name="animation_type_entries">
+        <item>Default</item>
+        <item>Slide In</item>
+    </string-array>
+
+    <string-array name="animation_type_values">
+        <item>"Default"</item>
+        <item>"Slide In"</item>
+    </string-array>
+
+    <!-- Edge Speed Preference -->
+    <string-array name="speed_entries">
+        <item>Default</item>
+        <item>Medium</item>
+        <item>Slow</item>
+    </string-array>
+
+    <string-array name="speed_values">
+        <item>"Default"</item>
+        <item>"Medium"</item>
+        <item>"Slow"</item>
+    </string-array>
+
+    <!-- Control Center List Preference -->
+    <string-array name="control_center_custom_entries">
+        <item>None</item>
+        <item>Flash</item>
+        <item>Split Window</item>
+        <item>Volume</item>
+        <item>Camera</item>
+        <item>Setting</item>
+    </string-array>
+
+    <string-array name="control_center_custom_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Assistive Touch</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Customize Layout Activity Title -->
+    <string name="title_activity_customize_layout">"Customize Layout"</string>
+
+    <!-- Preference Titles -->
+    <string name="assistive_touch">"Assistive Touch"</string>
+
+    <!-- Switch Preference Compat -->
+    <string name="main_switch_key">"Main Switch Key"</string>
+
+    <!-- List Preference Compat -->
+    <string name="icon_type_list_key">"Icon Type List Key"</string>
+    <string name="animation_type_list_key">"Animation Type List Key"</string>
+    <string name="speed_key">"Speed Key"</string>
+
+    <!-- Preference -->
+    <string name="layout_key">"Layout Key"</string>
+
+    <!-- SharedPreference -->
+    <string name="custom_layout_key">"Custom Layout Key"</string>
+    <string name="custom_action_1_1_key">"Custom Action 1 Key"</string>
+    <string name="custom_action_1_2_key">"Custom Action 2 Key"</string>
+    <string name="custom_action_1_3_key">"Custom Action 3 Key"</string>
+    <string name="custom_action_1_4_key">"Custom Action 4 Key"</string>
+    <string name="custom_action_1_5_key">"Custom Action 5 Key"</string>
+    <string name="custom_action_1_6_key">"Custom Action 6 Key"</string>
+    <string name="custom_action_1_7_key">"Custom Action 7 Key"</string>
+    <string name="custom_action_1_8_key">"Custom Action 8 Key"</string>
+
+    <!-- Layout Action Text -->
+    <string name="None">None</string>
+    <string name="Custom">Custom</string>
+    <string name="Device">Device</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Gesture">Gesture</string>
+    <string name="Control_Center">Control\nCenter</string>
+    <string name="Home">Home</string>
+
+    <!-- App Shortcut Pref -->
+    <string name="app_shortcut_pref_key_1">"app shortcut pref 1"</string>
+    <string name="app_shortcut_pref_key_2">"app shortcut pref 2"</string>
+    <string name="app_shortcut_pref_key_3">"app shortcut pref 3"</string>
+    <string name="app_shortcut_pref_key_4">"app shortcut pref 4"</string>
+    <string name="app_shortcut_pref_key_6">"app shortcut pref 6"</string>
+    <string name="app_shortcut_pref_key_7">"app shortcut pref 7"</string>
+    <string name="app_shortcut_pref_key_8">"app shortcut pref 8"</string>
+    <string name="app_shortcut_pref_key_9">"app shortcut pref 9"</string>
+    <string name="lock_nscreen">"Lock\nScreen"</string>
+    <string name="rotate_nscreen">"Rotate\nScreen"</string>
+    <string name="volume_nup">"Volume\nUp"</string>
+    <string name="unlock_nrotation">"Unlock\nRotation"</string>
+    <string name="lock_nrotation">"Lock\nRotation"</string>
+    <string name="volume_ndown">"Volume\nDown"</string>
+    <string name="device_admin_description">For Assistive Touch Lock Screen</string>
+    <string name="str_permission_remind">You need turn on permission to use Assistive Touch</string>
+    <string name="more">More</string>
+
+    <!-- Flash Light Pref -->
+    <string name="flash_light_pref_key">"Flash Light Key"</string>
+
+    <!-- Long Press Action Pref -->
+    <string name="long_press_action_pref_key">"Long Press Action Key"</string>
+    <string name="double_tap_action_pref_key">"Double Tap Action Key"</string>
+
+    <string name="title_notification_screenshot">Screenshot captured</string>
+    <string name="content_notification_screenshot">Tap to view screenshot.</string>
+
+    <string name="accessibility_service_description">Enable Accessibility Service to perform a global action. For example going back, opening power dialog, ect. \10Please be assured that Assistive Touch will not collect any personal information. \10\10Tap the switch at the top-right corner. \10After tapping the switch , the system will send a notice warning you about your personal information. \10System Requirements: Android 4.1 or later version</string>
+    <string name="accessibility_service_summary">Enable Accessibility Service to perform a global action. For example going back, opening power dialog, ect. \10Please be assured that Assistive Touch will not collect any personal information.</string>
+    <string name="power">Power</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="open_nstatusbar">"StatusBar"</string>
+
+    <string name="str_show">SHOW</string>
+    <string name="boost">BOOST</string>
+    <string name="accelerate_for_smoother_performance">Accelerate for smoother performance</string>
+    <string name="screen_recoder">Screen Recorder</string>
+    <string name="grant_asked_permission_for_start_recording">Grant Asked Permission For Start Recording</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="start">Start</string>
+    <string name="record">Record</string>
+    <string name="free_ram">Free RAM: %s</string>
+    <string name="device_has_been_boosted">Device has been boosted</string>
+    <string name="clean">Clean</string>
+    <string name="recent">Recent</string>
+    <string name="location">Location</string>
+    <string name="music">Music</string>
+    <string name="screen_nrecording">"Screen\nRecording"</string>
+    <string name="long_press">Long Press</string>
+</resources>

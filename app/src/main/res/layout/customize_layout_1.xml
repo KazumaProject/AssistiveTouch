@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent_customize_1"
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_root_bg"/>
+
+</RelativeLayout>

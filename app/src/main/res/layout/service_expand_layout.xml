@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_root_bg">
+
+        <ImageButton
+            android:id="@+id/btn_5_service"
+            android:layout_width="@dimen/layout_btn_size"
+            android:layout_height="@dimen/layout_btn_size"
+            android:adjustViewBounds="true"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/parent_1_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/btn_5_service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_1_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_1_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_1_service"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_2_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_5_service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.302">
+
+            <ImageButton
+                android:id="@+id/btn_2_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_2_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_2_service"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_3_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_5_service"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.302">
+
+            <ImageButton
+                android:id="@+id/btn_3_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_3_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_below="@id/btn_3_service"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_4_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_5_service">
+            <ImageButton
+                android:id="@+id/btn_4_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_4_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/btn_4_service"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_6_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_5_service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_2_service"
+            app:layout_constraintVertical_bias="0.342">
+            <ImageButton
+                android:id="@+id/btn_6_serivce"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+               android:layout_centerHorizontal="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/text_6_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/btn_6_serivce"/>
+        </RelativeLayout>
+
+
+       <RelativeLayout
+           android:id="@+id/parent_7_service"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toEndOf="@+id/btn_5_service"
+           app:layout_constraintTop_toBottomOf="@+id/parent_3_service"
+           app:layout_constraintVertical_bias="0.342">
+           <ImageButton
+               android:id="@+id/btn_7_service"
+               android:layout_width="@dimen/layout_btn_size"
+               android:layout_height="@dimen/layout_btn_size"
+               android:adjustViewBounds="true"
+               android:padding="5dp"
+               android:scaleType="fitCenter"
+              android:layout_centerHorizontal="true"
+               tools:ignore="ContentDescription" />
+           <TextView
+               android:id="@+id/text_7_service"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:textColor="@color/white"
+               android:textSize="12sp"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/btn_7_service"/>
+       </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

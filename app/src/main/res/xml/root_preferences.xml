@@ -1,0 +1,103 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Assistive Touch">
+        <com.pythontaro.assistivetouchpro.custom.CSwitchCompat
+            android:key="@string/main_switch_key"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <com.pythontaro.assistivetouchpro.custom.CategoryGreen
+        android:title="Layout">
+
+        <com.pythontaro.assistivetouchpro.custom.CPreference
+            android:dependency="@string/main_switch_key"
+            android:key="@string/layout_key"
+            android:title="Customize Layout"/>
+
+    </com.pythontaro.assistivetouchpro.custom.CategoryGreen>
+
+    <com.pythontaro.assistivetouchpro.custom.CategoryYellow
+        android:title="General">
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="@string/icon_type_list_key"
+            android:entries="@array/icon_type_entries"
+            android:entryValues="@array/icon_type_values"
+            android:defaultValue="Circle"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CSeekbarPref
+            android:dependency="@string/main_switch_key"
+            android:key="iconSizeKey"
+            android:max="5"
+            android:defaultValue="0"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="@string/animation_type_list_key"
+            android:entries="@array/animation_type_entries"
+            android:entryValues="@array/animation_type_entries"
+            android:defaultValue="Default"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="@string/speed_key"
+            android:entries="@array/speed_entries"
+            android:entryValues="@array/speed_values"
+            android:defaultValue="Default"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CSeekbarPref
+            android:dependency="@string/main_switch_key"
+            android:key="IdleOpacityKey"
+            android:title="Idle Opacity"
+            android:max="10"
+            android:defaultValue="5"/>
+
+    </com.pythontaro.assistivetouchpro.custom.CategoryYellow>
+
+    <com.pythontaro.assistivetouchpro.custom.CategoryPurple
+        android:title="Control Center">
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="Control Center Custom 1"
+            android:title="Item 1"
+            android:entries="@array/control_center_custom_entries"
+            android:entryValues="@array/control_center_custom_values"
+            android:defaultValue="0"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="Control Center Custom 2"
+            android:title="Item 2"
+            android:entries="@array/control_center_custom_entries"
+            android:entryValues="@array/control_center_custom_values"
+            android:defaultValue="0"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="Control Center Custom 3"
+            android:title="Item 3"
+            android:entries="@array/control_center_custom_entries"
+            android:entryValues="@array/control_center_custom_values"
+            android:defaultValue="0"/>
+
+        <com.pythontaro.assistivetouchpro.custom.CListPreference
+            android:dependency="@string/main_switch_key"
+            android:key="Control Center Custom 4"
+            android:title="Item 4"
+            android:entries="@array/control_center_custom_entries"
+            android:entryValues="@array/control_center_custom_values"
+            android:defaultValue="0"/>
+
+    </com.pythontaro.assistivetouchpro.custom.CategoryPurple>
+
+    <com.pythontaro.assistivetouchpro.custom.CategoryRed
+        android:title="App Info">
+        <com.pythontaro.assistivetouchpro.custom.CPreference
+            android:key="App Info Key"
+            android:title="Assistive Touch"
+            android:summary="Version: 0.0.1"/>
+    </com.pythontaro.assistivetouchpro.custom.CategoryRed>
+
+</PreferenceScreen>

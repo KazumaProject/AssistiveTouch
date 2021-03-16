@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:background="@drawable/layout_root_bg"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/item_1_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/item_3_7_service"
+            app:layout_constraintEnd_toStartOf="@+id/center_7_item_service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/item_1_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_1_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_1_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_2_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/item_4_7_service"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/center_7_item_service"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/item_2_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_2_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_2_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_3_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/center_7_item_service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/item_3_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_3_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_3_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_4_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/center_7_item_service"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/item_4_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_4_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_4_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_5_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/center_7_item_service"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_3_7_service">
+
+            <ImageButton
+                android:id="@+id/item_5_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_5_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_5_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_6_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/item_7_7_service"
+            app:layout_constraintStart_toEndOf="@+id/item_5_7_service"
+            app:layout_constraintTop_toBottomOf="@+id/center_7_item_service">
+
+            <ImageButton
+                android:id="@+id/item_6_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_6_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_6_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_7_7_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/center_7_item_service"
+            app:layout_constraintTop_toBottomOf="@+id/item_4_7_service">
+
+            <ImageButton
+                android:id="@+id/item_7_7_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/item_7_7_text_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_7_7_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_7_item_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/center_7_item_img_service"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/center_7_item_img_service"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

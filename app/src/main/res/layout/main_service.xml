@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rootView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/collapsed_image"
+        android:layout_width="@dimen/collapsed_img_size"
+        android:layout_height="@dimen/collapsed_img_size"
+        android:src="@drawable/logo_circle"
+        android:visibility="visible"
+        tools:ignore="ContentDescription"/>
+
+    <RelativeLayout
+        android:id="@+id/expandRootView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/expand_1_icons_menu"
+            layout="@layout/service_expand_1_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_2_icons_menu"
+            layout="@layout/service_expand_2_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_3_icons_menu"
+            layout="@layout/service_expand_3_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_4_icons_menu"
+            layout="@layout/service_expand_4_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_5_icons_menu"
+            layout="@layout/service_expand_5_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_6_icons_menu"
+            layout="@layout/service_expand_layout"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/expand_7_icons_menu"
+            layout="@layout/service_expand_7_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_8_icons_menu"
+            layout="@layout/service_expand_8_items"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_custom_menu"
+            layout="@layout/service_custom_layout"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_device_menu"
+            layout="@layout/service_device_layout"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/control_center_layout"
+            layout="@layout/control_center_layout"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/expand_gesture_menu"
+            layout="@layout/gesture_layout"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

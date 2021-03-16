@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gesture_rootView"
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_root_bg">
+
+        <RelativeLayout
+            android:id="@+id/parent_1_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/btn_4_gesture"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_1_gesture"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/long_press_icon"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_1_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_1_gesture"
+                android:layout_centerHorizontal="true"
+                android:text="@string/long_press"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/parent_2_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_4_gesture"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_2_gesture"
+                android:layout_width="@dimen/layout_btn_size2"
+                android:layout_height="@dimen/layout_btn_size2"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_double_click"
+                android:tint="@color/white_3"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_2_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_2_gesture"
+                android:layout_centerHorizontal="true"
+                android:text="Double Tap"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/btn_4_gesture"
+            android:layout_width="@dimen/layout_btn_size2"
+            android:layout_height="@dimen/layout_btn_size2"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

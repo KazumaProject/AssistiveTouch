@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/root_layout_size"
+        android:layout_height="@dimen/root_layout_size"
+        android:layout_centerInParent="true"
+        android:background="@drawable/layout_root_bg">
+
+        <RelativeLayout
+            android:id="@+id/parent_1_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/parent_4_custom"
+            app:layout_constraintEnd_toStartOf="@+id/parent_2_custom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_1_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_1_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_1_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_2_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/parent_5_custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_2_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_2_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_2_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_3_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/parent_6_custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/parent_2_custom"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_3_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_3_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_3_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_4_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/parent_5_custom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_4_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_4_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_4_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_6_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/parent_5_custom"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_6_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_6_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_6_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_7_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/parent_8_custom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_4_custom">
+
+            <ImageButton
+                android:id="@+id/btn_7_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_7_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_7_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_8_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parent_5_custom">
+
+            <ImageButton
+                android:id="@+id/btn_8_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_8_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_8_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_9_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/parent_8_custom"
+            app:layout_constraintTop_toBottomOf="@+id/parent_6_custom">
+
+            <ImageButton
+                android:id="@+id/btn_9_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/icon_select_bg"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_add_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/text_9_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_9_custom"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white_3"
+                android:textSize="@dimen/sub_labelSize" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/parent_5_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_5_custom"
+                android:layout_width="@dimen/layout_btn_size"
+                android:layout_height="@dimen/layout_btn_size"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_5_custom"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
